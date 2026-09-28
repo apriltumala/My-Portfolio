@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>April Rose A. Tumala — Graphic Designer & Illustrator | Packaging, Motion & Print</title>
+  <meta name="description"
+    content="Portfolio of April Rose A. Tumala, a multidisciplinary graphic designer and illustrator specializing in tactile packaging, expressive botanical illustration, editorial print, and kinetic motion graphics.">
+  <meta name="keywords"
+    content="Graphic Designer, Packaging Design, Motion Graphics, Print Design, Editorial Design, Botanical Illustration, April Rose Tumala, Portfolio">
+  <meta name="author" content="April Rose A. Tumala">
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="April Rose A. Tumala — Graphic Designer & Illustrator">
+  <meta property="og:description"
+    content="Crafting tactile print, lively packaging, and visual systems with motion at heart.">
+  <meta property="og:image" content="assets/images/solis-botanica.jpg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-family='serif' fill='%23D96846'>✦</text></svg>">
+</head>
+
+<body data-theme="light">
+
+  <!-- Custom Cursor Follower -->
+  <div class="cursor-follower" id="cursorFollower" aria-hidden="true">
+    <span class="cursor-text" id="cursorText">View</span>
+  </div>
+
+  <!-- Announcement & Availability Bar -->
+  <aside class="top-status-bar" aria-label="Availability Status">
+    <div class="container status-inner">
+      <div class="status-indicator">
+        <span class="pulse-dot"></span>
+        <span class="status-label">Currently open for freelance commissions &amp; junior design roles</span>
+      </div>
+      <div class="status-timezone" id="liveTimezone">
+        <span class="geo-pin">📍</span> Margosatubig, Zamboanga del Sur, PH (GMT+8) — <time id="currentTime">Loading time...</time>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Primary Site Header & Navigation -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-container">
+      <a href="#hero" class="brand-identity" aria-label="April Rose Tumala Homepage">
+        <span class="brand-name">April Rose Tumala</span>
+        <span class="brand-title">Graphic Design &amp; Illustration</span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="primary-nav" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li><a href="#work" class="nav-link"><span class="nav-num"></span> Selected Works</a></li>
+          <li><a href="#disciplines" class="nav-link"><span class="nav-num"></span> Disciplines</a></li>
+          <li><a href="#about" class="nav-link"><span class="nav-num"></span> Profile</a></li>
+          <li><a href="#reflection" class="nav-link"><span class="nav-num"></span> Reflections</a></li>
+          <li><a href="#playground" class="nav-link"><span class="nav-num"></span> Playground</a></li>
+          <li><a href="#contact" class="nav-cta-btn">Say Hello ↗</a></li>
+        </ul>
+      </nav>
+
+      <!-- Mobile Menu Toggle -->
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div class="mobile-drawer-content">
+      <nav class="mobile-nav">
+        <ul>
+          <li><a href="#work" class="mobile-link"><span class="nav-num">01</span> Selected Works</a></li>
+          <li><a href="#disciplines" class="mobile-link"><span class="nav-num">02</span> Disciplines</a></li>
+          <li><a href="#about" class="mobile-link"><span class="nav-num">03</span> Profile</a></li>
+          <li><a href="#reflection" class="mobile-link"><span class="nav-num">04</span> Reflections</a></li>
+          <li><a href="#playground" class="mobile-link"><span class="nav-num">05</span> Playground</a></li>
+          <li><a href="#contact" class="mobile-link"><span class="nav-num">06</span> Get in Touch</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-footer-info">
+        <p class="mobile-email">apriltumala123@gmail.com</p>
+        <p class="mobile-note">Minimal, tactile &amp; kinetic design.</p>
+      </div>
+    </div>
+  </div>
+
+  <main id="mainContent">
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-eyebrow-wrapper">
+          <span class="hero-tag">✦ Multidisciplinary Graphic Designer</span>
+          <span class="hero-specialties">Illustration · Packaging · Motion · Print</span>
+        </div>
+
+        <h1 class="hero-headline">
+          Crafting tactile print, lively packaging, and visual systems with <span class="headline-italic">motion at
+            heart.</span>
+        </h1>
+
+        <p class="hero-lead">
+          I’m April Rose Tumala — an emerging designer bridging the sensory craft of physical ink, dieline architecture,
+          and paper stocks with the kinetic energy of digital motion.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#work" class="btn btn-primary" id="exploreWorkBtn">
+            <span>Explore 4 Flagship Projects</span>
+            <span class="btn-arrow">↓</span>
+          </a>
+          <button class="btn btn-secondary" id="openResumeModalBtn">
+            <span>View Resume / CV</span>
+          </button>
+        </div>
+
+        <!-- Discipline Badges Bar -->
+        <div class="hero-disciplines-bar">
+          <div class="discipline-badge active" data-filter="all">All Disciplines</div>
+          <div class="discipline-badge" data-filter="packaging">Packaging Systems</div>
+          <div class="discipline-badge" data-filter="print">Editorial &amp; Print</div>
+          <div class="discipline-badge" data-filter="motion">Motion Graphics</div>
+          <div class="discipline-badge" data-filter="illustration">Expressive Illustration</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Selected Works Grid -->
+    <section class="work-section" id="work">
+      <div class="container">
+
+        <div class="section-header">
+          <div class="section-title-wrap">
+            <span class="section-index"> Index</span>
+            <h2 class="section-title">Selected Works</h2>
+          </div>
+          <p class="section-description">
+            Four flagship case studies showcasing end-to-end design rigor — from concept development and botanical line
+            art to packaging dielines and motion reveals.
+          </p>
+        </div>
+
+        <!-- Work Filter Tabs -->
+        <div class="filter-controls" role="tablist" aria-label="Project Categories">
+          <button class="filter-tab active" data-category="all" role="tab" aria-selected="true">All Works <span
+              class="count">(4)</span></button>
+          <button class="filter-tab" data-category="packaging" role="tab" aria-selected="false">Packaging <span
+              class="count">(2)</span></button>
+          <button class="filter-tab" data-category="print" role="tab" aria-selected="false">Print &amp; Editorial <span
+              class="count">(2)</span></button>
+          <button class="filter-tab" data-category="motion" role="tab" aria-selected="false">Motion <span
+              class="count">(2)</span></button>
+          <button class="filter-tab" data-category="illustration" role="tab" aria-selected="false">Illustration <span
+              class="count">(3)</span></button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid" id="projectsGrid">
+
+          <!-- Project 1: Solis Botanica -->
+          <article class="project-card" data-project="solis" data-tags="packaging illustration motion"
+            id="project-solis">
+            <div class="project-media-wrap">
+              <img src="assets/images/solis-botanica.jpg"
+                alt="Solis Botanica luxury packaging boxes and amber dropper bottles with gold foil botanicals"
+                class="project-image" loading="lazy">
+              <div class="media-overlay">
+                <span class="overlay-badge">View Complete Case Study</span>
+              </div>
+              <div class="project-spec-strip">
+                <span>350gsm Linen Board</span>
+                <span>•</span>
+                <span>Gold Hot-Foil</span>
+                <span>•</span>
+                <span>After Effects Kinetic Reveal</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="project-number">No. 01</span>
+                <div class="project-tags">
+                  <span class="tag">Packaging</span>
+                  <span class="tag">Illustration</span>
+                  <span class="tag">Motion</span>
+                </div>
+              </div>
+              <h3 class="project-title">
+                <a href="#solis" class="case-study-trigger" data-project-id="solis">Solis Botanica — Restorative Herbal
+                  Elixirs</a>
+              </h3>
+              <p class="project-summary">
+                A sustainable luxury packaging suite and kinetic launch teaser designed for contemporary botanical
+                elixirs. Blends fine-line botanical illustration with foil-embossed unboxing architecture.
+              </p>
+              <div class="project-footer">
+                <span class="project-client">Personal Brief · 4 Weeks</span>
+                <button class="project-link-btn case-study-trigger" data-project-id="solis"
+                  aria-label="Open Solis Botanica case study">
+                  Read Case Study <span class="arrow">→</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: In Praise of Tactility -->
+          <article class="project-card" data-project="tactility" data-tags="print" id="project-tactility">
+            <div class="project-media-wrap">
+              <img src="assets/images/tactility-print.jpg"
+                alt="Exposed Swiss binding editorial monograph open on linen table with terracotta thread and architectural typography"
+                class="project-image" loading="lazy">
+              <div class="media-overlay">
+                <span class="overlay-badge">View Complete Case Study</span>
+              </div>
+              <div class="project-spec-strip">
+                <span>Exposed Swiss Binding</span>
+                <span>•</span>
+                <span>Terracotta Thread</span>
+                <span>•</span>
+                <span>Asymmetric 6-Col Grid</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="project-number">No. 02</span>
+                <div class="project-tags">
+                  <span class="tag">Print Design</span>
+                  <span class="tag">Editorial</span>
+                  <span class="tag">Typography</span>
+                </div>
+              </div>
+              <h3 class="project-title">
+                <a href="#tactility" class="case-study-trigger" data-project-id="tactility">In Praise of Tactility —
+                  Print Culture Monograph</a>
+              </h3>
+              <p class="project-summary">
+                An 80-page publication examining the sensory weight of paper and ink. Features open Swiss spine binding,
+                alternating paper stocks, and a disciplined typographic hierarchy.
+              </p>
+              <div class="project-footer">
+                <span class="project-client">Curatorial Project · 5 Weeks</span>
+                <button class="project-link-btn case-study-trigger" data-project-id="tactility"
+                  aria-label="Open In Praise of Tactility case study">
+                  Read Case Study <span class="arrow">→</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Kinesis Film Showcase -->
+          <article class="project-card" data-project="kinesis" data-tags="motion print" id="project-kinesis">
+            <div class="project-media-wrap">
+              <img src="assets/images/kinesis-motion.jpg"
+                alt="Kinetic typography poster in contemporary gallery setting for Kinesis Indie Film Festival"
+                class="project-image" loading="lazy">
+              <div class="media-overlay">
+                <span class="overlay-badge">View Complete Case Study</span>
+              </div>
+              <div class="project-spec-strip">
+                <span>24fps Kinetic Curves</span>
+                <span>•</span>
+                <span>Subway OOH Motion</span>
+                <span>•</span>
+                <span>Title Sequence System</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="project-number">No. 03</span>
+                <div class="project-tags">
+                  <span class="tag">Motion Graphics</span>
+                  <span class="tag">Visual Identity</span>
+                  <span class="tag">Kinetic Type</span>
+                </div>
+              </div>
+              <h3 class="project-title">
+                <a href="#kinesis" class="case-study-trigger" data-project-id="kinesis">Kinesis — Independent Film
+                  Festival Identity</a>
+              </h3>
+              <p class="project-summary">
+                A motion-first dynamic identity driven by 24fps cinematic shutter rhythms and elastic typography. Built
+                to fluidly adapt across giant digital billboards, title cards, and holographic festival passes.
+              </p>
+              <div class="project-footer">
+                <span class="project-client">Event Identity · 3 Weeks</span>
+                <button class="project-link-btn case-study-trigger" data-project-id="kinesis"
+                  aria-label="Open Kinesis case study">
+                  Read Case Study <span class="arrow">→</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: Nocturne Chocolatier -->
+          <article class="project-card" data-project="nocturne" data-tags="packaging illustration print"
+            id="project-nocturne">
+            <div class="project-media-wrap">
+              <img src="assets/images/nocturne-chocolate.jpg"
+                alt="Artisanal chocolate bar packaging with intricate botanical block print illustration and copper foil"
+                class="project-image" loading="lazy">
+              <div class="media-overlay">
+                <span class="overlay-badge">View Complete Case Study</span>
+              </div>
+              <div class="project-spec-strip">
+                <span>Block Print Illustration</span>
+                <span>•</span>
+                <span>Copper Foil Stamp</span>
+                <span>•</span>
+                <span>Cotton Paper Wrap</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="project-number">No. 04</span>
+                <div class="project-tags">
+                  <span class="tag">Packaging</span>
+                  <span class="tag">Illustration</span>
+                  <span class="tag">Print</span>
+                </div>
+              </div>
+              <h3 class="project-title">
+                <a href="#nocturne" class="case-study-trigger" data-project-id="nocturne">Nocturne Chocolatier —
+                  Single-Origin Botanical Bars</a>
+              </h3>
+              <p class="project-summary">
+                Artisanal confectionery packaging inspired by vintage botanical woodcuts. Illustrated single-origin
+                cacao varietals paired with rich copper foil embossing on raw textured cotton wrap.
+              </p>
+              <div class="project-footer">
+                <span class="project-client">Brand Identity Brief · 3 Weeks</span>
+                <button class="project-link-btn case-study-trigger" data-project-id="nocturne"
+                  aria-label="Open Nocturne Chocolatier case study">
+                  Read Case Study <span class="arrow">→</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Disciplines & Creative Philosophy Matrix -->
+    <section class="disciplines-section" id="disciplines">
+      <div class="container">
+
+        <div class="section-header">
+          <div class="section-title-wrap">
+            <span class="section-index">Capabilities</span>
+            <h2 class="section-title">Design Disciplines &amp; Craft</h2>
+          </div>
+          <p class="section-description">
+            A cohesive approach combining the structural discipline of print production with expressive illustration and
+            kinetic storytelling.
+          </p>
+        </div>
+
+        <div class="disciplines-grid">
+
+          <div class="discipline-card">
+            <div class="card-icon">📦</div>
+            <div class="card-num">01</div>
+            <h3 class="card-title">Tactile Packaging Systems</h3>
+            <p class="card-body">
+              Structural dielines, unboxing choreography, substrate selection (linen, kraft, cotton papers), and premium
+              finishing specs (emboss, deboss, foil stamping, spot UV).
+            </p>
+            <ul class="card-skills">
+              <li>Custom Dieline Architecture</li>
+              <li>Material &amp; Paperboard Specs</li>
+              <li>3D Mockups &amp; Prototyping</li>
+            </ul>
+          </div>
+
+          <div class="discipline-card">
+            <div class="card-icon">🌿</div>
+            <div class="card-num">02</div>
+            <h3 class="card-title">Expressive Illustration</h3>
+            <p class="card-body">
+              Fine-line botanical rendering, character motifs, and editorial spot illustrations that lend an
+              unmistakable human warmth to brand identity systems.
+            </p>
+            <ul class="card-skills">
+              <li>Botanical &amp; Biological Linework</li>
+              <li>Vector Brand Assets</li>
+              <li>Editorial Spot Illustrations</li>
+            </ul>
+          </div>
+
+          <div class="discipline-card">
+            <div class="card-icon">🎞️</div>
+            <div class="card-num">03</div>
+            <h3 class="card-title">Kinetic Motion Graphics</h3>
+            <p class="card-body">
+              Giving static brand marks a heartbeat. Kinetic typography, logo reveals, title sequences, and social
+              teasers mapped to custom easing curves and sound design.
+            </p>
+            <ul class="card-skills">
+              <li>After Effects Micro-interactions</li>
+              <li>Kinetic Typography Systems</li>
+              <li>Digital Out-of-Home Loops</li>
+            </ul>
+          </div>
+
+          <div class="discipline-card">
+            <div class="card-icon">📖</div>
+            <div class="card-num">04</div>
+            <h3 class="card-title">Print &amp; Editorial Layout</h3>
+            <p class="card-body">
+              Deep love for typography, baseline grids, Swiss binding, and physical ink absorption. Creating books,
+              lookbooks, and posters meant to be held and cherished.
+            </p>
+            <ul class="card-skills">
+              <li>Asymmetric Grid Hierarchies</li>
+              <li>Pre-press &amp; Production Prep</li>
+              <li>Risograph &amp; Specialty Inks</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- About / Profile Section -->
+    <section class="about-section" id="about">
+      <div class="container about-container">
+
+        <div class="about-sidebar-col">
+          <div class="practice-card">
+            <span class="practice-badge">✦ Studio Practice</span>
+            <h3 class="practice-name">April Rose A. Tumala</h3>
+            <p class="practice-role">Graphic Designer &amp; Illustrator</p>
+            <p class="practice-desc">Bridging physical print traditions, tactile packaging architecture, and kinetic motion graphics.</p>
+            <div class="practice-meta-list">
+              <div class="meta-item">
+                <span class="meta-item-label">Location</span>
+                <span class="meta-item-val">Margosatubig,Zamboanga del Sur, Philippines (Remote-friendly)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-item-label">Disciplines</span>
+                <span class="meta-item-val">Packaging · Motion · Print · Illustration</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-item-label">Status</span>
+                <span class="meta-item-val">Open for Roles &amp; Commissions</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="tools-toolkit">
+            <h4 class="toolkit-heading">Technical Arsenal</h4>
+            <div class="tool-tags">
+              <span class="tool-tag">Adobe Illustrator</span>
+              <span class="tool-tag">Adobe InDesign</span>
+              <span class="tool-tag">Adobe After Effects</span>
+              <span class="tool-tag">Adobe Photoshop</span>
+              <span class="tool-tag">Blender (3D Mockups)</span>
+              <span class="tool-tag">Figma</span>
+              <span class="tool-tag">Risograph &amp; Printmaking</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-content-col">
+          <span class="section-index">Profile</span>
+          <h2 class="about-headline">Bridging the tactile heritage of print with the kinetic rhythm of motion.</h2>
+
+          <div class="about-paragraphs">
+            <p>
+              Hello! I’m <strong>April Rose Tumala</strong>, a graphic designer and illustrator with an obsession for
+              detail — whether that's calculating the precise fold of a packaging dieline or fine-tuning the easing
+              curve of an After Effects keyframe.
+            </p>
+            <p>
+              My creative practice lives at the intersection of the physical and the digital. Because I work across both
+              tactile and screen mediums, I’m constantly thinking about how a visual identity moves, breathes, and feels
+              in someone’s hands.
+            </p>
+            <p>
+              I believe great design should be <em>minimal without feeling sterile</em>, and <em>refined while staying
+                warm and approachable</em>. When I’m not testing paper stocks or tweaking bezier handles, you’ll find me
+              collecting botanical lithographs, visiting print archives, or animating experimental loops.
+            </p>
+          </div>
+
+          <div class="about-pillars">
+            <div class="pillar-item">
+              <span class="pillar-number">01</span>
+              <div>
+                <h4 class="pillar-title">Sensory Materiality</h4>
+                <p class="pillar-desc">Choosing paper weights, dielines, and foil finishes that turn everyday unboxing
+                  into a tactile ritual.</p>
+              </div>
+            </div>
+            <div class="pillar-item">
+              <span class="pillar-number">02</span>
+              <div>
+                <h4 class="pillar-title">Motion with Intent</h4>
+                <p class="pillar-desc">Animation isn’t decorative fluff — it establishes brand personality, momentum,
+                  and spatial logic.</p>
+              </div>
+            </div>
+            <div class="pillar-item">
+              <span class="pillar-number">03</span>
+              <div>
+                <h4 class="pillar-title">Enduring Warmth</h4>
+                <p class="pillar-desc">Infusing bespoke illustration and thoughtful editorial typography so brands feel
+                  human, not algorithmic.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-cta-row">
+            <a href="#contact" class="btn btn-outline">Let’s Chat</a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- My Reflections Section — tabbed -->
+    <section class="reflection-section" id="reflection">
+      <div class="container reflection-container">
+
+        <div class="reflection-simple-header">
+          <span class="section-index">Reflections</span>
+          <h2 class="reflection-simple-title">Academic Reflections</h2>
+        </div>
+
+        <!-- Tab buttons -->
+        <div class="reflection-tabs" role="tablist" aria-label="Reflections">
+          <button class="reflection-tab active" id="tab-professionalism" role="tab"
+            aria-selected="true" aria-controls="panel-professionalism">
+            Professionalism in IT
+          </button>
+          <button class="reflection-tab" id="tab-ai" role="tab"
+            aria-selected="false" aria-controls="panel-ai">
+            Introduction to AI Literacy
+          </button>
+        </div>
+
+        <!-- Panel 1: Professionalism in IT -->
+        <article class="reflection-plain-card" id="panel-professionalism" role="tabpanel"
+          aria-labelledby="tab-professionalism">
+          <h3 class="reflection-card-title">Reflection: Professionalism in IT</h3>
+          <div class="reflection-plain-text" id="essayTextContent">
+            <p>
+              When I first began studying Information Technology, I thought professionalism was mostly about looking put-together for a job interview, a neat resume, a firm handshake, the right vocabulary during a presentation. As I've progressed through my coursework, group projects, and early exposure to real IT environments, I've come to understand that professionalism in this field runs much deeper than appearances. It is a mindset that touches how I write code, how I communicate with teammates, and how I take responsibility for my own growth.
+            </p>
+            <p>
+              One of the clearest lessons has come from working on group projects. In IT, no meaningful system is built by one person alone, and I've learned that professionalism shows up in the small, unglamorous habits: showing up to meetings prepared, documenting my code so others can understand it, and communicating honestly when I'm stuck instead of letting a deadline quietly slip. Early on, I underestimated how much trust depends on these habits. A missed commit, an undocumented function, or a vague status update can derail a whole team's momentum. I've realized that professionalism isn't a performance for supervisors, it's a form of respect for the people who depend on my work.
+            </p>
+            <p>
+              Ethics has also become a central part of how I think about professionalism. IT students are taught early about data privacy, intellectual property, and cybersecurity, but it's one thing to memorize these concepts for an exam and another to internalize them as principles I'll actually live by. Handling a classmate's personal data during a systems project, or thinking about how an application I build might be misused, has made me appreciate that professionalism in IT means holding myself accountable even when no one is watching. The field moves fast, and it's tempting to cut corners, skip testing, reuse insecure code, ignore proper attribution, but professionalism means resisting those shortcuts because the consequences of carelessness in IT can be significant, from data breaches to systems failures that affect real people.
+            </p>
+            <p>
+              I've also learned that professionalism requires humility. Technology changes constantly, and no amount of classroom learning fully prepares a student for the pace of real-world tools and practices. I used to feel embarrassed asking questions in class, worried it would make me look unprepared. Now I see that a professional in IT is not someone who knows everything, but someone who is honest about what they don't know and is committed to continuously learning through documentation, mentorship, and simply being willing to be a beginner again and again as technology evolves.
+            </p>
+            <p>
+              Finally, professionalism has shaped how I present myself, both online and offline. As someone building a portfolio and preparing for internships, I've learned that professionalism extends to how I communicate in emails, how I give and receive feedback, and how I carry myself in interviews and networking events.
+            </p>
+            <p>
+              Ultimately, professionalism in IT, for me, is not a checklist but a discipline, one built on accountability, ethics, collaboration, and a genuine commitment to growth. As I move closer to entering the workforce, I hope to carry these lessons beyond the classroom and into every system I help build.
+            </p>
+          </div>
+          <div class="reflection-simple-actions">
+            <button class="simple-text-btn" id="copyEssayBtn" aria-label="Copy reflection text">
+              <span id="copyEssayBtnText">Copy Text</span>
+            </button>
+            <span class="essay-copy-toast" id="essayCopyToast" role="status" aria-live="polite">
+              Copied to clipboard.
+            </span>
+          </div>
+        </article>
+
+        <!-- Panel 2: Introduction to AI Literacy -->
+        <article class="reflection-plain-card hidden-panel" id="panel-ai" role="tabpanel"
+          aria-labelledby="tab-ai">
+          <h3 class="reflection-card-title">Reflection: Introduction to AI Literacy and Responsible Use</h3>
+          <figure class="reflection-certificate">
+            <img src="assets/images/ai-literacy-certificate.png"
+              alt="Certificate of Completion – Introduction to AI Literacy and Responsible Use, issued to April Rose Tumala on 17 September 2026"
+              class="reflection-certificate-img" loading="lazy">
+            <figcaption class="reflection-certificate-caption">Certificate of Completion · Introduction to AI Literacy and Responsible Use</figcaption>
+          </figure>
+          <div class="reflection-plain-text" id="aiTextContent">
+            <p>
+              Going into this topic, I assumed I already understood artificial intelligence fairly well. As an IT student, I had used AI tools for coding help, research, and even brainstorming design ideas for my portfolio work. But "Introduction to AI Literacy and Responsible Use" showed me that knowing how to use AI tools is very different from understanding them, how they work, where their limitations lie, and what responsibilities come with relying on them.
+            </p>
+            <p>
+              The first thing that reshaped my thinking was learning how AI models are actually built and trained. I had a vague notion that AI "learns from data," but I hadn't fully grasped how much the quality, scope, and biases of that training data shape everything the model produces. Realizing that an AI system can sound confident while being completely wrong, a phenomenon I learned to recognize as "hallucination", changed how I approach using these tools. I used to accept AI-generated answers at face value, especially when they were phrased fluently. Now I treat AI output the way I'd treat a helpful but occasionally unreliable classmate: useful for a first draft or a starting point, but never a final authority without verification.
+            </p>
+            <p>
+              This course also pushed me to think critically about ethics in ways I hadn't before. Discussions on data privacy, algorithmic bias, and the environmental cost of training large models made me realize that "responsible use" isn't just about avoiding academic dishonesty, though that's part of it. It's about understanding the broader footprint of the tools I use daily. Learning about how biased training data can lead to biased outputs, sometimes with real consequences for marginalized groups, made me more conscious of questioning results rather than passing them along uncritically, especially in a field like IT where the systems we build can scale those biases quickly.
+            </p>
+            <p>
+              As a student, the most practically useful part of the course was learning where the line is between using AI as a support tool and letting it replace my own thinking. I had to be honest with myself about moments when I used AI to shortcut effort rather than to genuinely learn, asking it to solve a problem outright instead of using it to understand the concept behind the problem. This reflection was uncomfortable at times, but necessary. Professionalism and academic integrity, I realized, both depend on being transparent about how much of a piece of work is genuinely mine versus AI-assisted, and using disclosure honestly rather than avoiding the question.
+            </p>
+            <p>
+              The course also gave me language and frameworks I didn't have before, concepts like prompt literacy, human-in-the-loop review, and the importance of verifying AI outputs against credible sources. These aren't just academic ideas, they're skills I now see as essential for any IT professional, since AI tools are already embedded in software development, design, and everyday workflows.
+            </p>
+            <p>
+              Looking back, this experience didn't just teach me how to use AI more effectively, it taught me to use it more thoughtfully. As I continue building my skills and my portfolio, I want to carry this literacy forward: staying curious about how these tools work, honest about their limits, and responsible about the role they play in my growth as a future IT professional.
+            </p>
+          </div>
+          <div class="reflection-simple-actions">
+            <button class="simple-text-btn" id="copyAiBtn" aria-label="Copy AI reflection text">
+              <span id="copyAiBtnText">Copy Text</span>
+            </button>
+            <span class="essay-copy-toast" id="aiCopyToast" role="status" aria-live="polite">
+              Copied to clipboard.
+            </span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Playground / Archive Experiments Section -->
+    <section class="playground-section" id="playground">
+      <div class="container">
+
+        <div class="section-header">
+          <div class="section-title-wrap">
+            <span class="section-index"> Visual Diary</span>
+            <h2 class="section-title">Playground &amp; Experiments</h2>
+          </div>
+          <p class="section-description">
+            A spontaneous collection of daily posters, risograph color tests, motion sketches, and typography studies.
+          </p>
+        </div>
+
+        <div class="playground-grid">
+
+          <div class="playground-item item-tall">
+            <div class="experiment-visual exp-poster-1">
+              <div class="poster-inner">
+                <span class="poster-tag">Poster 01</span>
+                <h4 class="poster-text">KINETIC<br>TENSION</h4>
+                <span class="poster-year">2026</span>
+              </div>
+            </div>
+            <div class="playground-info">
+              <span class="exp-title">Typographic Distortion Study</span>
+              <span class="exp-category">Motion / Print</span>
+            </div>
+          </div>
+
+          <div class="playground-item">
+            <div class="experiment-visual exp-riso">
+              <div class="riso-graphic">
+                <span class="riso-circle"></span>
+                <span class="riso-title">RISO COLOR MATRIX</span>
+              </div>
+            </div>
+            <div class="playground-info">
+              <span class="exp-title">Two-Color Fluorescent Risograph Test</span>
+              <span class="exp-category">Printmaking</span>
+            </div>
+          </div>
+
+          <div class="playground-item">
+            <div class="experiment-visual exp-botanical">
+              <div class="botanical-vector">
+                <svg viewBox="0 0 100 100" class="leaf-svg" aria-label="Hand-drawn botanical vector">
+                  <path d="M50 10 C 65 30, 80 60, 50 90 C 20 60, 35 30, 50 10 Z" fill="none" stroke="#D96846"
+                    stroke-width="2" />
+                  <path
+                    d="M50 10 L 50 90 M 50 35 L 70 25 M 50 50 L 75 42 M 50 65 L 68 60 M 50 35 L 30 25 M 50 50 L 25 42 M 50 65 L 32 60"
+                    stroke="#D96846" stroke-width="1.5" />
+                </svg>
+              </div>
+            </div>
+            <div class="playground-info">
+              <span class="exp-title">Botanical Linocut Vectors</span>
+              <span class="exp-category">Illustration</span>
+            </div>
+          </div>
+
+          <div class="playground-item item-wide">
+            <div class="experiment-visual exp-dieline">
+              <div class="dieline-sketch">
+                <div class="dieline-box">
+                  <span class="fold-line"></span>
+                  <span class="dimension-label">120mm × 45mm × 45mm</span>
+                  <span class="cut-indicator">FLAP TUCK A</span>
+                </div>
+              </div>
+            </div>
+            <div class="playground-info">
+              <span class="exp-title">Geometric Reverse Tuck Packaging Dieline</span>
+              <span class="exp-category">Packaging Craft</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact & Call to Action Section -->
+    <section class="contact-section" id="contact">
+      <div class="container contact-container">
+
+        <div class="contact-card">
+          <div class="contact-eyebrow">
+            <span class="pulse-dot"></span>
+            <span>Initiate Collaboration</span>
+          </div>
+
+          <h2 class="contact-title">Let’s make something memorable together.</h2>
+
+          <p class="contact-subhead">
+            Have a project in mind, an open junior design role, or just want to chat about paper weights and After
+            Effects keyframes? Pull up a chair — my inbox is always open.
+          </p>
+
+          <!-- Interactive Email Box with 1-click Copy -->
+          <div class="email-interactive-box" id="emailBox">
+            <div class="email-text-wrap">
+              <span class="email-label">DIRECT EMAIL</span>
+              <span class="email-address" id="emailAddress">apriltumala123@gmail.com</span>
+            </div>
+            <button class="copy-email-btn" id="copyEmailBtn" aria-label="Copy email address to clipboard">
+              <span id="copyBtnText">Copy to Clipboard</span>
+              <span class="copy-icon">📋</span>
+            </button>
+          </div>
+
+          <div class="copy-toast" id="copyToast" role="status" aria-live="polite">
+            ✨ Copied to clipboard! Talk soon.
+          </div>
+
+          <!-- Social Handles & Direct Resume -->
+          <div class="contact-links-grid">
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="contact-social-link">
+              <span class="link-label">LinkedIn</span>
+              <span class="link-arrow">↗</span>
+            </a>
+            <a href="https://www.behance.net" target="_blank" rel="noopener noreferrer" class="contact-social-link">
+              <span class="link-label">Behance</span>
+              <span class="link-arrow">↗</span>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="contact-social-link">
+              <span class="link-label">Instagram</span>
+              <span class="link-arrow">↗</span>
+            </a>
+            <button class="contact-social-link resume-trigger" id="footerResumeBtn">
+              <span class="link-label">Resume / CV</span>
+              <span class="link-arrow">📄</span>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Interactive Project Case Study Modal -->
+  <div class="case-study-modal" id="caseStudyModal" aria-hidden="true" role="dialog" aria-modal="true"
+    aria-labelledby="modalProjectTitle">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-window">
+
+      <div class="modal-sticky-bar">
+        <div class="modal-brand-badge" id="modalCategoryBadge">Case Study Deep Dive</div>
+        <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close case study modal">✕ Close (ESC)</button>
+      </div>
+
+      <div class="modal-body-scroll" id="modalBody">
+        <!-- Content will be injected dynamically via JavaScript -->
+      </div>
+
+      <div class="modal-footer-nav">
+        <button class="modal-nav-btn prev-btn" id="prevProjectBtn">← Previous Project</button>
+        <button class="modal-nav-btn next-btn" id="nextProjectBtn">Next Project →</button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Interactive Resume / CV Modal -->
+  <div class="resume-modal" id="resumeModal" aria-hidden="true" role="dialog" aria-modal="true"
+    aria-labelledby="resumeTitle">
+    <div class="modal-backdrop" id="resumeBackdrop"></div>
+    <div class="resume-window">
+      <div class="resume-modal-header">
+        <h3 id="resumeTitle">April Rose A. Tumala — Curriculum Vitae</h3>
+        <button class="modal-close-btn" id="resumeCloseBtn" aria-label="Close resume modal">✕</button>
+      </div>
+      <div class="resume-content-view">
+        <div class="resume-header-block">
+          <h2>April Rose A. Tumala</h2>
+          <p class="resume-role">Graphic Designer &amp; Illustrator · Packaging, Motion &amp; Print</p>
+          <p class="resume-contact-line">apriltumala123@gmail.com · Margosatubig,Zamboanga del Sur, Philippines · Open to Remote &amp;
+            Relocation</p>
+        </div>
+
+        <div class="resume-section-item">
+          <h4 class="resume-subhead">Education &amp; Credentials</h4>
+          <div class="resume-entry">
+            <div class="entry-title-row">
+              <strong>Bachelor of Science in Information Technology</strong>
+              <span class="entry-date">Expected 2026</span>
+            </div>
+            <p class="entry-desc">Focus in Packaging Systems, Editorial Typography, and Kinetic Motion Graphics. Dean's
+              Honor Roll.</p>
+          </div>
+        </div>
+
+        <div class="resume-section-item">
+          <h4 class="resume-subhead">Core Competencies</h4>
+          <ul class="resume-list">
+            <li><strong>Packaging &amp; Structural Design:</strong> Custom dielines, fold engineering, multi-layer foil
+              stamping, blind deboss, paper stock curation.</li>
+            <li><strong>Motion Design &amp; Kinetic Type:</strong> After Effects keyframing, dynamic logo reveals, 24fps
+              title sequences, video editing.</li>
+            <li><strong>Print Production:</strong> InDesign grid architecture, pre-press color separation, spot colors
+              (Pantone), Swiss bookbinding.</li>
+            <li><strong>Illustration &amp; Brand Systems:</strong> Botanical vector illustration, brand mark creation,
+              packaging wrap design.</li>
+          </ul>
+        </div>
+
+        <div class="resume-section-item">
+          <h4 class="resume-subhead">Selected Project Highlights</h4>
+          <p><strong>Solis Botanica:</strong> Designed luxury packaging suite, custom botanical vectors, and 3D kinetic
+            launch sequence.</p>
+          <p><strong>In Praise of Tactility:</strong> Curated and typeset an 80-page monograph with exposed Swiss thread
+            binding and asymmetric 6-column grid.</p>
+          <p><strong>Kinesis Film Showcase:</strong> Created a 24fps motion identity system across animated billboards
+            and printed event collateral.</p>
+        </div>
+
+        <div class="resume-section-item">
+          <h4 class="resume-subhead">Academic Writing &amp; Professional Ethics</h4>
+          <p><strong>"Reflection: Professionalism in IT" (2026):</strong> Analytical reflection examining ethical
+            accountability, code transparency, team trust, humility in learning, and professional presence in software
+            development and technology environments.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Site Footer & Colophon -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-logo">April Rose Tumala</span>
+          <p class="footer-tagline">Crafting tactile print, lively packaging, and visual systems with motion at heart.
+          </p>
+        </div>
+        <div class="footer-nav-col">
+          <span class="footer-col-title">Navigation</span>
+          <ul class="footer-links">
+            <li><a href="#hero">Back to Top ↑</a></li>
+            <li><a href="#work">Selected Works</a></li>
+            <li><a href="#disciplines">Disciplines</a></li>
+            <li><a href="#about">Profile</a></li>
+            <li><a href="#reflection">Reflections</a></li>
+            <li><a href="#playground">Playground</a></li>
+          </ul>
+        </div>
+        <div class="footer-nav-col">
+          <span class="footer-col-title">Connect</span>
+          <ul class="footer-links">
+            <li><a href="mailto:apriltumala123@gmail.com">apriltumala123@gmail.com</a></li>
+            <li><a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="https://behance.net" target="_blank" rel="noopener">Behance</a></li>
+            <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-colophon">
+        <p>© 2026 April Rose A. Tumala. All rights reserved.</p>
+        <p class="colophon-details">
+          Set in <em>Fraunces</em> &amp; <em>Plus Jakarta Sans</em>. Crafted with semantic HTML, vanilla CSS, and
+          thoughtful attention to craft.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
